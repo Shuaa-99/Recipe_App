@@ -55,8 +55,8 @@ class MainActivity : AppCompatActivity() {
         buttonPress.setOnClickListener {
             apiInterface!!.addUser(
                 UsersItem(
-                    authorTxt.text.toString(),
                     titleTxt.text.toString(),
+                    authorTxt.text.toString(),
                     ingredientsTxt.text.toString(),
                     instructionsTxt.text.toString(),
                     0,
